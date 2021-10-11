@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
+import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -18,6 +20,28 @@ function Footer() {
                         </form>
                     </div>
                 </p>
+            </section>
+            <div className='footer-links'>
+                <div className='footer-link-wrapper'>
+                    <div className='footer-link-items'>
+                        <h2>Contact Information</h2>
+                        <Link to='/'>campbellmatt646@gmail.com</Link>
+                    </div>
+                </div>
+            </div>
+            <section className='social-media'>
+                <div className='social-media-wrap'>
+                    <div className='social-icons'>
+                        <Link to='/' className='social-icon-link linkedin'>
+                            LinkedIn <i className='fab fa-linkedin' />
+                        </Link>
+                    </div>
+                    <div className='footer-logo'>
+                        <Link to='/' className='social-logo'>
+                            GitHub <i className='fab fa-github' />
+                        </Link>
+                    </div>
+                </div>
             </section>
         </div>
     )
