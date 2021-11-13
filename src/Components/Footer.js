@@ -15,7 +15,7 @@ function Footer() {
                         <form>
                             <input type="email" name="email" placeholder="Your Email" className="footer-input" />
                             <Button byttonStyle='bitn-online'>
-                                Sub
+                                Send
                             </Button>
                         </form>
                     </div>
